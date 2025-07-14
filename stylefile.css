@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+
+html body{
+    height: 100%;
+    width: 100%;
+    margin : 0;
+    padding : 0;
+    background-color: rgb(209, 204, 204);
+    font-family : roboto;
+}
+
+.container {
+    background-color : yellowgreen;
+    /* background-color : #a7c957; */
+    width : 63vw;
+    height : 39vw;
+    border-radius : 1rem;
+    box-shadow : inset 0.2rem 0.3rem 0.3rem rgb(106, 123, 101),0.2rem 0.3rem 0.5rem rgb(96, 108, 93);
+    border: 0.5rem solid black;
+    
+}
+.btn {
+    padding :1vw 1.5vw 1vw 1.5vw;
+    margin: 0 0.5vw;
+    border-radius: 0.6rem;
+    font-size : 1.5rem;
+    width : 13vw;
+    box-shadow: 0 0.5rem 1rem black;
+    position: relative;
+    transition : all 0.2s ease;
+    background-color:  darksalmon;
+    /* background-color:  #6a994e; */
+    border : none;
+}
+.btn:active{
+    box-shadow : none;
+    /* position: relative; */
+    transform : translateY(0.4rem);
+}
+
+.row {
+    margin : 0.8vw;
+}
+
+.row input {
+    margin : 0;
+    border : 0;
+    /* border-h */
+    font-size : 2rem;
+    width: 55vw;
+    height: 3rem;
+    border-radius : 0.6rem;
+    padding-left : 0.5rem;
+    box-shadow: inset 0.2rem 0.2rem 0.2rem rgb(247, 245, 245),inset -0.2rem -0.2rem 0.2rem grey,
+                0rem 0.2rem 0.6rem black;
+            
+    border : 2px solid rgb(131, 130, 130);
+}
+
+@media (max-width : 1050px) {
+    .container {
+        height : 45vw;
+    }
+}
+
+@media (max-width : 850px) {
+    .container {
+        height : 47vw;
+    }
+}
+
+
+@media (max-width : 748px) {
+    .container {
+        height : 49vw;
+    }
+}
+
+@media (max-width : 700px) {
+    .container {
+        height : 52vw;
+    }
+}
+
+@media (max-width : 642px) {
+    .container {
+        height : 55vw;
+    }
+}
+
+@media (max-width : 590px) {
+    .container {
+        height : 50vh;
+    }
+}
+
+@media (max-width : 550px) {
+    .container {
+        height : 48vh;
+    }
+}
+
+@media (max-width : 450px) {
+    .container {
+        height : 46vh;
+    }
+}
+
+
+@media (width : 414px) and
+        (height : 896px) {
+    .container {
+        height : 35vh;
+        width : 64vw;
+    }
+}
+
+@media (max-width : 412px) {
+    .container {
+        height : 36vh;
+        width : 69vw;
+    }
+}
+
+@media (max-width : 410px) {
+    .container {
+        height : 44vh;
+        
+    }
+}
+
+@media (width : 360px) {
+    .container {
+        height : 44vh;
+    }
+}
+
+@media (width : 360px) and
+        (height : 740px) {
+    .container {
+        height : 40vh;
+    }
+}
+
+@media (width : 390px) and
+        (height : 844px) {
+    .container {
+        height : 37vh;
+    }
+}
+
+@media (width : 393px) and
+        (height : 851px) {
+    .container {
+        height : 37vh;
+    }
+}
+
+@media (width : 540px) and
+        (height : 720px) {
+    .container {
+        height : 46vh;
+        width : 64vw;
+    }
+}
+
+
+
+
+
+@media (max-width : 335px) {
+    .container {
+        height : 45vh;
+        width : 65vw;
+    }
+}
+
+@media (max-width : 280px) and
+        (max-height : 653px) {
+    .container {
+        height : 43vh;
+        width : 71vw;
+    }
+}
