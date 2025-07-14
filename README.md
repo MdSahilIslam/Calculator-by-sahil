@@ -1,0 +1,1 @@
+This is fully responsive simple calculator made using Html, Css & JavaScript
