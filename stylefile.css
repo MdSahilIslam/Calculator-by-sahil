@@ -48,6 +48,7 @@ html body{
     margin : 0;
     border : 0;
     /* border-h */
+    background-color: white;
     font-size : 2rem;
     width: 55vw;
     height: 3rem;
